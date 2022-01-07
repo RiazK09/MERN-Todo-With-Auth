@@ -1,0 +1,77 @@
+/* ------Styling for Landing Page component------ */
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  /*No Attribution required for the image*/
+  background-image: url("../src/images/notebook.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  font-size: 58px;
+}
+
+.subtitle {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingbutton {
+  width: 200px;
+  height: 55px;
+}
+
+@media only screen and (min-width:1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+
+  .title {
+    padding: 0 100px;
+  }
+}
+
+/* ------Styling for Main Screen component------ */
+.mainback {
+  min-height: 93vh;
+  display: flex;
+  padding: 10px 0;
+}
+
+.page {
+  width: 100%;
+}
+
+.heading {
+  font-size: 60px;
+  padding: 5px 10px;
+}
+
+/* ------Styling for Login Screen component------ */
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.register {
+  color: blue;
+}
+
+/* ------Styling for register Screen component------ */
+.login {
+  color: blue;
+}
